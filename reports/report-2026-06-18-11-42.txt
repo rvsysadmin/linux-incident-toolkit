@@ -1,0 +1,20 @@
+==============================
+  INCIDENT RESPONSE REPORT
+==============================
+
+CPU Usage: 5.9%
+Memory Usage: 11.74%
+Disk Usage: 25%
+Top 5 CPU Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        2798  166  0.0   8332  4408 pts/0    R+   11:42   0:00 ps aux --sort=-%cpu
+root        2797 50.0  0.0   4752  3504 pts/0    S+   11:42   0:00 bash modules/process.sh
+root        2799 33.3  0.0   3136  1920 pts/0    S+   11:42   0:00 head -6
+root        2781  6.0  0.0   4752  3332 pts/0    S+   11:42   0:00 /bin/bash ./run.sh
+mysql       1165  4.9  5.3 1786564 397488 ?      Ssl  11:34   0:22 /usr/sbin/mysqld
+Failed SSH Attempts:
+0
+
+==============================
+Report Generated Successfully
+==============================
