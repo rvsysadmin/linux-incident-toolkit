@@ -1,0 +1,25 @@
+==============================
+ INCIDENT RESPONSE REPORT
+==============================
+
+CPU Info:
+CPU Usage: 11.1%
+
+Memory Info:
+Memory Usage: 11.60%
+
+Disk Info:
+Disk Usage: 25%
+
+Processes:
+Top 5 CPU Processes:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        6740  100  0.0   8332  4404 pts/0    R+   12:14   0:00 ps aux --sort=-%cpu
+root        6738 42.8  0.0   4752  3460 pts/0    S+   12:14   0:00 bash modules/process.sh
+root        6741 28.5  0.0   3136  1920 pts/0    S+   12:14   0:00 head -6
+root        6739 14.2  0.0   3132  1848 pts/0    S+   12:14   0:00 tee -a reports/report-2026-06-18-12-14.txt
+root        6697  8.2  0.0   4752  3480 pts/0    S+   12:14   0:00 /bin/bash ./incident-toolkit.sh
+
+Security:
+Failed SSH Attempts:
+0
